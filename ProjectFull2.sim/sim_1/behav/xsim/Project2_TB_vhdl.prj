@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ProjectFull2.srcs/sources_1/new/Divide.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/FA_1.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/Product.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/Project2.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/SSD2.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/Subtract.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/Sum.vhd" \
+"../../../../ProjectFull2.srcs/sources_1/new/TestBench2.vhd" \
+
+# Do not sort compile order
+nosort
